@@ -1,0 +1,155 @@
+/* style.css */
+body {
+    background-color: #B9B9B9;
+    font-family: fantasy;
+}
+
+header{
+    background: linear-gradient(to bottom, #333333, #747474, #D9D9D9 );
+    text-align: center;
+}
+
+header button{
+    position:fixed;
+    color:#FFFFFF;
+    font-family: Impact;
+    text-shadow:2px 2px #000000;
+    background-color: rgb(255, 255, 138);
+    transition: 0.3s;
+    right:0px;
+    border-radius: 10px;
+    font-size: 35px;
+}
+
+header button p{
+    transition: 0.3s;
+    font-size: 1px;
+    opacity: 0%;
+}
+
+header button:hover{
+    background-color: #FBFF30;
+    font-size: 40px;
+}
+
+header button:hover p{
+    font-size: 30px;
+    opacity:100%;
+}
+
+main{
+    text-align: center;
+}
+
+.button-1{
+    transition: 0.5s;
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    background-color:#777777;
+}
+
+.button-2{
+    transition: 0.5s;
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    background-color:#777777;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.button-3{
+    transition: 0.5s;
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    background-color:#777777;
+}
+
+.button-1:hover{
+    box-shadow: 4px 4px 0 0 black;
+    background-color: #FBFF30;
+    transition: 0.5s;
+    height:320px;
+}
+
+.button-2:hover{
+    box-shadow: 4px 4px 0 0 black;
+    background-color: #FBFF30;
+    transition: 0.5s;
+    height:320px;
+}
+
+.button-3:hover{
+    box-shadow: 4px 4px 0 0 black;
+    background-color: #FBFF30;
+    transition: 0.5s;
+    height:320px;
+}
+
+button:hover h2{
+    transition: 0.3s;
+    opacity: 100%;
+}
+
+.abt{
+    transition: 0.5s;
+    border-radius: 10px;
+    color:white;
+    margin: 15px;
+    font-size:50px;
+    font-family: Impact;
+    background-color: #747474;
+}
+
+.abt p{
+    opacity:0%;
+    font-size: 1px;
+    transition: 0.3s;
+}
+
+.abt:hover p{
+    font-size: 25px;
+    opacity: 100%;
+}
+
+.abt:hover{
+    text-shadow: 2px 2px #000000;
+    box-shadow: 4px 4px 0 0 #000000;
+    font-size: 65px;
+    background-color: #FBFF30;
+    color:white;
+}
+
+h2{
+    font:bold;
+    color:white;
+    text-shadow: 1.5px 1.5px #000000;
+    transition: 0.3s;
+    opacity:0%;
+    font-size: 25px;
+}
+
+iframe{
+    transition: 0.3s;
+    border-radius: 15px;
+}
+
+iframe:hover{
+    transition: 0.3s;
+    width: 660px;
+    height: 380px;
+}
+
+footer{
+    background: mediumblue;
+}
+
+
+h1{
+    float:left;
+    font-size: 50px;
+    color:white;
+    text-shadow:4px 4px #000000;
+}
