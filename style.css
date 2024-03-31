@@ -16,7 +16,8 @@ header button{
     text-shadow:2px 2px #000000;
     background-color: rgb(255, 255, 138);
     transition: 0.3s;
-    right:0px;
+    right:10px;
+    top:15px;
     border-radius: 10px;
     font-size: 35px;
 }
