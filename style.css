@@ -111,7 +111,7 @@ a{
 .abt p{
     opacity:0%;
     font-size: 1px;
-    transition: 0.3s;
+    transition: 0.9s;
 }
 
 .abt:hover p{
